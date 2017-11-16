@@ -1,0 +1,318 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+html {
+  font-size: 1.125em;
+  line-height: 22px;
+  line-height: 1.222em;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-asjust: 100%;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: serif;
+  line-height: 90px;
+  margin: 2.5em;
+  text-align: center;
+}
+h2 {
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  font-weight: bold;
+  font-family: serif;
+  padding-top: 35px;
+  text-align: center;
+  padding-bottom: 45px;
+}
+h3 {
+  padding-top: 22px;
+  font-size: 33px;
+  font-family: serif;
+  text-align: center;
+  padding-bottom: 22px;
+  color: white;
+}
+
+h4 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: serif;
+  text-align: center;
+  padding: 30px;
+}
+
+
+/* Layout Styles */
+#header {
+  background-color: #3d516c;
+  color: white;
+  padding: 4em;
+}
+
+.title {
+  border-style: double;
+  border-color: #cb9101;
+  border-width: 44px;
+}
+
+.inside {
+  background: url(TasteofChicago1.jpg);
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #cb9101;
+}
+#Menu {
+  background-color: #3d516c;
+  color: black;
+  padding: 1.3em;
+  height: 100vh;
+}
+
+#Menu li {
+  padding-bottom: 18px;
+  font-size: 20px;
+  font-family: serif;
+  line-height: 16px;
+  color: white;
+}
+
+#sandwiches, #dinners {
+  text-align: left;
+  border-style: double;
+  border-color: #cb9101;
+  border-width: 22px;
+}
+
+#contact_us {
+  background-color: #cb9101;
+  color: black;
+  padding: 1.3em;
+  text-align: center;
+  font-family: serif;
+  font-size: 35px;
+}
+
+#contact ul:first-child {
+  margin: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#contact ul:last-child {
+  margin: 15px;
+}
+
+#contact li {
+  padding-bottom: 15px;
+}
+
+.location {
+  width: 50%;
+  float:left;
+}
+
+#map {
+  border-radius: 50%
+
+}
+
+.contactinfo {
+  margin: 15px;
+}
+
+#footer {
+  text-align: center;
+  font-size: 15px;
+  height: 100%;
+  background-color: #3d516c;
+  color: white;
+}
+
+/* State */
+ @media screen and (min-width: 320px) {
+   html {
+     font-size: 1em;
+   }
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 1em;
+  }
+  #header {
+    padding: 1em;
+  }
+  .title {
+    border-width: 20px;
+  }
+  .inside {
+    height: 250px;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  h3 {
+    line-height: 30px;
+    font-size: 25px;
+  }
+  #Menu {
+    height: 100%;
+  }
+  #Menu li {
+    width: 85%;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 1em;
+  }
+  h4 {
+    line-height: 40px;
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+  #map {
+    width: 200px;
+    float:left;
+    padding-bottom: .5em;
+  }
+  #contact {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 625px) {
+  html {
+    font-size: 1.25em; /*20/16=1.25 */
+  }
+ h1 {
+   font-size: 60px;
+   line-height: 65px;
+   margin: 1.5em;
+ }
+ .title {
+   border-width: 25px;
+ }
+ .inside {
+   height: 350px;
+ }
+ h2 {
+   font-size: 45px;
+ }
+ h3 {
+   font-size: 30px;
+ }
+ #Menu li {
+   font-size: 20px;
+   padding-left: 1.5em;
+ }
+ h4 {
+   line-height: 45px;
+   font-size: 45px;
+   text-align: right;
+ }
+ #map {
+   width: 300px;
+ }
+ #contact {
+   font-size: 25px;
+   line-height: 30px;
+   text-align: right;
+   margin-left: 1em;
+ }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 2em; /* */
+  }
+ h1 {
+   font-size: 70px;
+   line-height: 80px;
+    margin: 2em;
+ }
+ .title {
+   border-width: 35px;
+ }
+ h2 {
+   font-size: 50px;
+ }
+ #Menu {
+   height: 100vh;
+ }
+ #Menu li {
+   font-size: 18px;
+   padding-left: 1em;
+ }
+ #sandwiches {
+   width: 40%; /*  */
+   float: left;
+ }
+ #dinners {
+   width: 40%; /*  */
+   margin-left: 2.0348837%; /* */
+   float: right;
+ }
+ #map {
+   width: 350px;
+ }
+ #contact {
+   line-height: 25px;
+ }
+}
+@media screen and (min-width: 920x) {
+  html {
+    font-size: 2.5em; /* */
+  }
+ h1 {
+   font-size: 70px;
+   margin: 2em;
+ }
+ #header {
+   padding: 2em;
+ }
+ #map {
+   margin-left: 2em;
+ }
+ #contact {
+   margin-left: 2em;
+}
+@media screen and (min-width: 1100x) {
+  h1 {
+   font-size: 70px;
+   margin: 2.5em;
+ }
+ #header {
+   padding: 3em;
+ }
+ #map {
+   margin-left: 3em;
+ }
+ #contact {
+   margin-right: 3em;
+}
+@media screen and (min-width: 1270x) {
+  h1 {
+   font-size: 80px;
+ }
+ #map {
+   margin-left: 4em;
+ }
+ #contact {
+   margin-right: 4em;
+ }
+ #header {
+   padding: 4em;
+ }
+}
