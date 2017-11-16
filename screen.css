@@ -90,7 +90,7 @@ h4 {
   color: white;
 }
 
-#sandwiches, #dinners {
+#sandwiches, #dinners, #wings {
   text-align: left;
   border-style: double;
   border-color: #cb9101;
@@ -276,7 +276,7 @@ color: #FFFFFF; /* this is the yellow of the link bottons, change it */
    width: 40%; /*  */
    float: left;
  }
- #dinners {
+ #dinners, #wings {
    width: 40%; /*  */
    margin-left: 2.0348837%; /* */
    float: right;
