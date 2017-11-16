@@ -97,6 +97,24 @@ h4 {
   border-width: 22px;
 }
 
+.navigation {
+padding: .5em;
+padding-bottom: 1.5em;
+}
+
+.navigation li{
+display: inline;
+color:#FFFFF0;
+background-color: #cb9101;
+padding: .5em;
+list-style: none;
+}
+
+.navigation a {
+font-size: 1em;
+color: #FFFFFF; /* this is the yellow of the link bottons, change it */
+}
+
 #contact_us {
   background-color: #cb9101;
   color: black;
@@ -122,7 +140,6 @@ h4 {
 
 .location {
   width: 50%;
-  float:left;
 }
 
 #map {
@@ -249,7 +266,7 @@ h4 {
    font-size: 50px;
  }
  #Menu {
-   height: 100vh;
+   height: 120vh;
  }
  #Menu li {
    font-size: 18px;
