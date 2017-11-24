@@ -84,7 +84,7 @@ p {
   background-color: #3d516c;
   color: black;
   padding: 1.3em;
-  height: 100vh;
+  height: 100%;
 }
 
 #Menu li {
@@ -95,12 +95,12 @@ p {
   color: white;
 }
 
-.sandwiches, .dinners, .wings,  {
+/*.sandwiches, .dinners, .wings,  {
   text-align: left;
   border-style: double;
   border-color: #cb9101;
   border-width: 22px;
-}
+}*/
 
 .navigation {
 padding: .5em;
@@ -151,7 +151,6 @@ padding-left: -0em;
 
 #map {
   border-radius: 50%
-
 }
 
 .contactinfo {
@@ -195,9 +194,6 @@ padding-left: -0em;
     line-height: 30px;
     font-size: 25px;
   }
-  #Menu {
-    height: 100%;
-  }
   .navigation li {
     margin-bottom: .5em;
   }
@@ -207,7 +203,7 @@ padding-left: -0em;
     line-height: 18px;
     padding-left: 1em;
   }
-  .sandwiches, .wings {
+  .sandwiches, .wings, .dinners, .mexicandinners, .hamburgers, .hotdogs, .pastas, .salads {
     border-style: double;
     border-color: #cb9101;
     border-width: 22px;
@@ -282,24 +278,18 @@ padding-left: -0em;
  h2 {
    font-size: 50px;
  }
- #Menu {
-   height: 170vh;
- }
  .navigation a {
    font-size: .90em;
  }
- #Menu li {
-   font-size: 15px;
- }
- .sandwiches {
-   width: 40%; /*  */
+ /*.sandwiches {
+   width: 40%;
    float: left;
  }
- .dinners, .wings {
-   width: 40%; /*  */
-   margin-left: 2.0348837%; /* */
+ .wings {
+   width: 40%;
+   margin-left: 2.0348837%;
    float: right;
- }
+ }*/
  p {
    font-size: 18px;
  }
@@ -321,9 +311,6 @@ padding-left: -0em;
  }
  #header {
    padding: 2em;
- }
- #Menu {
-   height: 140vh;
  }
  .navigation a {
    font-size: 1em;
@@ -357,11 +344,11 @@ h4 {
    font-size: 1.1em;
  }
  #Menu li {
-   font-size: 20px;
-   line-height: 25px;
+   font-size: 30px;
+   line-height: 35px;
  }
- #Menu {
-   height: 130vh;
+ h3 {
+   font-size: 40px;
  }
  #map {
    margin-left: 2em;
@@ -379,16 +366,13 @@ h4 {
 }
 @media screen and (min-width: 1270x) {
   h1 {
-   font-size: 80px;
+   font-size: 90px;
  }
  .navigation a {
    font-size: 1.2em;
  }
  h3 {
    font-size: 40px;
- }
- #Menu {
-   height: 120vh;
  }
  #Menu li {
    font-size: 24px;
