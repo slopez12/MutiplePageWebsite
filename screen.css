@@ -86,7 +86,7 @@ p {
   height: 100%;
 }
 
-#Menu li {
+.sandwiches, .wings, .dinners, .mexicandinners, .hamburgers, .hotdogs, .pastas, .salad li {
   font-size: 20px;
   font-family: serif;
   line-height: 16px;
@@ -95,22 +95,23 @@ p {
 }
 
 .navigation {
-padding: .5em;
-padding-bottom: 1.5em;
+  padding: .5em;
+  padding-bottom: 1.5em;
 }
 
 .navigation li {
-color:#FFFFF0;
-background-color: #cb9101;
-padding: .5em;
-list-style: none;
-border-radius: 3em;
+  font-size: 18px;
+  font-family: serif;
+  line-height: 16px;
+  color:#FFFFF0;
+  background-color: #cb9101;
+  list-style: none;
+  border-radius: 3em;
 }
 
 .navigation a {
 font-size: 1em;
 color: #FFFFFF; /* this is the yellow of the link bottons, change it */
-padding: .5em;
 padding-left: -0em;
 }
 
@@ -183,8 +184,15 @@ padding-left: -0em;
   }
   .navigation li {
     margin-bottom: .5em;
+    padding: 4px;
+    width: 200px;
+    margin-left: 2em;
   }
-  #Menu li {
+  .navigation a {
+    font-size: 13px;
+    margin: 15px;
+  }
+  .sandwiches, .wings, .dinners, .mexicandinners, .hamburgers, .hotdogs, .pastas, .salads li {
     width: 85%;
     font-size: 15px;
     line-height: 18px;
@@ -230,12 +238,13 @@ padding-left: -0em;
    font-size: 30px;
    padding-bottom: 1em;
   }
-  #Menu li {
+  .sandwiches, .wings, .dinners, .mexicandinners, .hamburgers, .hotdogs, .pastas, .salads  li {
    font-size: 18px;
    padding-left: 2em;
   }
   .navigation li {
-   display: inline;
+    padding: 6px;
+    margin-left: 10em;
   }
   .navigation a {
     font-size: .90em;
@@ -260,6 +269,10 @@ padding-left: -0em;
   h2 {
     font-size: 40px;
   }
+  .navigation li {
+    padding: 8px;
+    margin-left: 11em;
+  }
   h4 {
     padding-left: 8.8em;
   }
@@ -269,13 +282,18 @@ padding-left: -0em;
  .contact {
    line-height: 25px;
   }
- .contact li {
+ .contact li {salad
    padding-left: 17em;
   }
 }
 @media screen and (min-width: 920px) {
   #map {
     margin-left: 1em;
+  }
+  .navigation li {
+    padding: 6px;
+    margin-left: 0em;
+    display: inline;
   }
   h4 {
     padding-left: 9.3em;
@@ -300,7 +318,7 @@ padding-left: -0em;
  }
 }
 @media screen and (min-width: 1270px) {
- #Menu li {
+  .sandwiches, .wings, .dinners, .mexicandinners, .hamburgers, .hotdogs, .pastas, .salad li {
    font-size: 20px;
    line-height: 25px;
  }
