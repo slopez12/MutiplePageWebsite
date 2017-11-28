@@ -63,12 +63,6 @@ p {
   background-color: #3d516c;
   color: white;
   padding: 4em;
-}padding-left: 0em;
-
-.title {
-  border-style: double;
-  border-color: #cb9101;
-  border-width: 44px;
 }
 
 .inside {
@@ -169,6 +163,8 @@ padding: .5em;
     padding: 1em;
   }
   .title {
+    border-style: double;
+    border-color: #cb9101;
     border-width: 20px;
   }
   .inside {
@@ -235,6 +231,7 @@ padding: .5em;
   }
   #Menu li {
    padding-left: 2em;
+   font-size: 20px;
   }
   .navigation a {
     font-size: 15px;
@@ -264,7 +261,7 @@ padding: .5em;
     font-size: 40px;
   }
   .navigation li {
-    margin-left: 280px;
+    margin-left: 180px;
   }
   h4 {
     padding-left: 8.8em;
@@ -280,6 +277,9 @@ padding: .5em;
   }
 }
 @media screen and (min-width: 920px) {
+  .navigation li {
+    margin-left: 280px;
+  }
   #map {
     margin-left: 1em;
   }
@@ -293,8 +293,11 @@ padding: .5em;
    line-height: 60px;
  }
  .navigation li {
-   margin-left: 6px;
+   margin-left:22px;
    display: inline;
+ }
+ #Menu li {
+   font-size: 25px;
  }
  h4 {
    font-size: 55px;
@@ -315,7 +318,7 @@ padding: .5em;
    line-height: 25px;
  }
  .navigation li {
-   margin-left: 30px;
+   margin-left: 45px;
    display: inline;
  }
  #map {
