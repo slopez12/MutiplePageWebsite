@@ -65,12 +65,15 @@ p {
   padding: 4em;
 }
 
-.inside {
+/*.inside {
   background: url(TasteofChicago1.jpg);
   height: 150px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #cb9101;
+}*/
+#transition {
   background-color: #cb9101;
 }
 #Menu {
@@ -128,7 +131,7 @@ padding: .5em;
 .contact ul:last-child {
   margin: 15px;
 }
-
+}
 .location {
   width: 50%;
 }
@@ -167,9 +170,12 @@ padding: .5em;
     border-color: #cb9101;
     border-width: 20px;
   }
-  .inside {
-    height: 250px;
+  #sandwich {
+    width: 100%;
   }
+  /*.inside {
+    height: 250px;
+  }*/
   h2 {
     font-size: 35px;
     line-height: 40px;
@@ -222,8 +228,15 @@ padding: .5em;
   .title {
    border-width: 30px;
   }
-  .inside {
+  #sandwich {
+    width: 70%;
+    margin-left: 15%;
+  }
+  /*.inside {
    height: 350px;
+  }*/
+  .navigation ul {
+    margin-bottom: 8em;
   }
   h3 {
    font-size: 30px;
@@ -238,8 +251,15 @@ padding: .5em;
    }
    .navigation li {
      width: 200px;
-     margin-left: 150px;
+     /*margin-left: 150px;*/
+     float:left;
    }
+   /*#sandwich {
+     width:40%;
+     margin-left: 4.03%;
+     float: right:
+   }*/
+
   #map {
    width: 250px;
   }
@@ -257,11 +277,18 @@ padding: .5em;
   html {
     font-size: 2em;
   }
+  #sandwich {
+    width: 60%;
+    margin-left: 20%;
+  }
   h2 {
     font-size: 40px;
   }
+  .navigation ul {
+    margin-bottom: 4em;
+  }
   .navigation li {
-    margin-left: 180px;
+    margin-left: 45px;
   }
   h4 {
     padding-left: 8.8em;
@@ -278,7 +305,11 @@ padding: .5em;
 }
 @media screen and (min-width: 920px) {
   .navigation li {
-    margin-left: 280px;
+    margin-left: 10px;
+  }
+  .navigation ul {
+    margin-bottom: 3em;
+    padding-top: 10px;
   }
   #map {
     margin-left: 1em;
@@ -292,9 +323,16 @@ padding: .5em;
    font-size: 60px;
    line-height: 60px;
  }
+ #sandwich {
+   width: 50%;
+   margin-left: 25%;
+ }
  .navigation li {
-   margin-left:22px;
-   display: inline;
+   margin-left:48px;
+ }
+ .navigation ul {
+   margin-bottom: 4em;
+   padding-top: 1em;
  }
  #Menu li {
    font-size: 25px;
@@ -318,8 +356,7 @@ padding: .5em;
    line-height: 25px;
  }
  .navigation li {
-   margin-left: 45px;
-   display: inline;
+   margin-left: 100px;
  }
  #map {
    margin-left: 4em;
