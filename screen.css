@@ -64,15 +64,6 @@ p {
   color: white;
   padding: 4em;
 }
-
-/*.inside {
-  background: url(TasteofChicago1.jpg);
-  height: 150px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #cb9101;
-}*/
 #transition {
   background-color: #cb9101;
 }
@@ -109,7 +100,7 @@ line-height: 13px;
 
 .navigation a {
 font-size: 1em;
-color: #FFFFFF; /* this is the yellow of the link bottons, change it */
+color: #FFFFFF;
 padding: .5em;
 }
 
