@@ -170,7 +170,7 @@ padding: .5em;
     border-color: #cb9101;
     border-width: 20px;
   }
-  #sandwich {
+  #sandwich, #burger, #gyro, #salad, #tacos {
     width: 100%;
   }
   /*.inside {
@@ -228,7 +228,7 @@ padding: .5em;
   .title {
    border-width: 30px;
   }
-  #sandwich {
+  #sandwich, #burger, #gyro, #salad, #tacos {
     width: 70%;
     margin-left: 15%;
   }
@@ -251,15 +251,8 @@ padding: .5em;
    }
    .navigation li {
      width: 200px;
-     /*margin-left: 150px;*/
      float:left;
    }
-   /*#sandwich {
-     width:40%;
-     margin-left: 4.03%;
-     float: right:
-   }*/
-
   #map {
    width: 250px;
   }
@@ -277,7 +270,7 @@ padding: .5em;
   html {
     font-size: 2em;
   }
-  #sandwich {
+  #sandwich, #burger, #gyro, #salad, #tacos {
     width: 60%;
     margin-left: 20%;
   }
@@ -323,7 +316,7 @@ padding: .5em;
    font-size: 60px;
    line-height: 60px;
  }
- #sandwich {
+ #sandwich, #burger, #gyro, #salad, #tacos {
    width: 50%;
    margin-left: 25%;
  }
