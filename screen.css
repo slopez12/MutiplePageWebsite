@@ -43,14 +43,13 @@ h3 {
   color: white;
 }
 
-h4 {
+h4, h5 {
   font-size: 50px;
   font-weight: bold;
   font-family: serif;
   text-align: center;
   padding: 30px;
 }
-
 p {
   font-size: 16px;
   color: white;
@@ -65,7 +64,7 @@ p {
   padding: 4em;
 }
 #transition {
-  background-color: #cb9101;
+  background-color: #c0ad96;
 }
 #Menu {
   background-color: #3d516c;
@@ -89,7 +88,7 @@ padding-bottom: 1.5em;
 
 .navigation li {
 color:#FFFFF0;
-background-color: #cb9101;
+background-color: #d79a03;
 padding: .5em;
 list-style: none;
 border-radius: 3em;
@@ -103,9 +102,11 @@ font-size: 1em;
 color: #FFFFFF;
 padding: .5em;
 }
-
+#aboutus {
+  background-color: #c0ad96;;
+}
 #contact_us {
-  background-color: #cb9101;
+  background-color: #d79a03;
   font-size: 35px;
   font-family: serif;
   text-align: center;
@@ -139,8 +140,7 @@ padding: .5em;
   text-align: center;
   font-size: 15px;
   height: 100%;
-  background-color: #3d516c;
-  color: white;
+  background-color: #c0ad96;
 }
 
 /* State */
@@ -158,7 +158,7 @@ padding: .5em;
   }
   .title {
     border-style: double;
-    border-color: #cb9101;
+    border-color: #d79a03;
     border-width: 20px;
   }
   #sandwich, #burger, #gyro, #salad, #tacos {
@@ -185,17 +185,27 @@ padding: .5em;
     line-height: 18px;
     padding-left: 1em;
   }
-
   .sandwiches, .wings, .dinners, .mexicandinners, .hamburgers, .hotdogs, .pastas, .salads {
     border-style: double;
-    border-color: #cb9101;
+    border-color: #c0ad96;
     border-width: 22px;
     margin-bottom: 2em;
   }
-  h4 {
+  h4, h5 {
     font-size: 30px;
     line-height: 40px;
-    padding-bottom: 5px;
+    padding-bottom: 1em;;
+  }
+  h5 {
+    text-align: center;
+    padding-top: 1em;
+  }
+  .aboutus p {
+    color: black;
+    text-align: left;
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+    padding-right: 1em;
   }
   #map {
     width: 100px;
@@ -205,6 +215,9 @@ padding: .5em;
   .contact {
     font-size: 20px;
     line-height: 20px;
+  }
+  #footer p {
+    color: black;
   }
 }
 @media screen and (min-width: 625px) {
@@ -319,16 +332,23 @@ padding: .5em;
    font-size: 25px;
  }
  h4 {
-   font-size: 55px;
+   font-size: 45px;
    line-height: 60px;
-   padding-left: 8em;
+   padding-left: 10em;
  }
  #map {
    width: 300px;
  }
  .contact li {
-   font-size: 25px;
+   font-size: 20px;
    line-height: 30px;
+   padding-left: 22em;
+ }
+ h5 {
+   font-size: 40px;
+ }
+ .aboutus p {
+   font-size: 18px;
  }
 }
 @media screen and (min-width: 1270px) {
