@@ -173,9 +173,9 @@ padding: .5em;
   #sandwich, #burger, #gyro, #salad, #tacos {
     width: 100%;
   }
-  /*.inside {
-    height: 250px;
-  }*/
+  #inside {
+    width: 100%;
+  }
   h2 {
     font-size: 35px;
     line-height: 40px;
@@ -232,9 +232,6 @@ padding: .5em;
     width: 70%;
     margin-left: 15%;
   }
-  /*.inside {
-   height: 350px;
-  }*/
   .navigation ul {
     margin-bottom: 8em;
   }
