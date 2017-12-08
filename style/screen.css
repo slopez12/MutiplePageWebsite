@@ -134,8 +134,8 @@ padding: .5em;
      font-size: 1em;
    }
   h1 {
-    font-size: 1.87em;
-    line-height: 1.33em;
+    font-size: 30px;
+    line-height: 40px;
     margin: .5em;
   }
   #header {
@@ -144,38 +144,38 @@ padding: .5em;
   .title {
     border-style: double;
     border-color: #d79a03;
-    border-width: 1em;
+    border-width: 20px;
   }
   #inside, #sandwich, #burger, #gyro, #salad, #tacos {
     width: 100%;
   }
   h2 {
-    font-size: 2em;
-    line-height: 1.5em;
+    font-size: 35px;
+    line-height: 40px;
     padding-bottom: .5em;
   }
   .navigation li {
     margin-bottom: .5em;
-    margin-left: 1em;
+    margin-left: 15px;
   }
   #Menu li {
-    font-size: .8em;
-    line-height: 1em;
+    font-size: 15px;
+    line-height: 18px;
     padding-left: 1em;
   }
   .sandwiches, .wings, .dinners, .mexicandinners, .hamburgers, .hotdogs, .pastas, .salads {
     border-style: double;
     border-color: #c0ad96;
-    border-width: 1em;
+    border-width: 22px;
     margin-bottom: 2em;
   }
   h3 {
-    font-size: 1.6em;
-    line-height: 1.2em;
+    font-size: 25px;
+    line-height: 30px;
   }
   h4, h5 {
-    font-size: 1.5em;
-    line-height: 1.3em;
+    font-size: 30px;
+    line-height: 40px;
     padding-bottom: 1em;;
   }
   h5 {
@@ -190,13 +190,13 @@ padding: .5em;
     padding-right: 1em;
   }
   #map {
-    width: 5.7em;
+    width: 100px;
     float:left;
     padding-bottom: .5em;
   }
   .contact {
-    font-size: .571em;
-    line-height: 1em;
+    font-size: 20px;
+    line-height: 20px;
   }
   #footer p {
     color: black;
@@ -207,12 +207,12 @@ padding: .5em;
     font-size: 1.25em; /*20/16=1.25 */
   }
   h1 {
-    font-size: 2.5em;
-    line-height: 1em;
+    font-size: 50px;
+    line-height: 50px;
     margin: 1.4em;
   }
   .title {
-   border-width: 1.4em;
+   border-width: 30px;
   }
   #sandwich, #burger, #gyro, #salad, #tacos {
     width: 70%;
@@ -222,30 +222,31 @@ padding: .5em;
     margin-bottom: 8em;
   }
   .navigation a {
-    font-size: .9em;
+    font-size: 15px;
    }
   .navigation li {
-     width: 12.5em;
+     width: 200px;
      float:left;
    }
    #Menu li {
+     font-size: 20px;
      padding-left: 2em;
    }
    h3 {
-     font-size: 1.5em;
+     font-size: 30px;
      padding-bottom: 1em;
    }
    h4 {
-   font-size: 2em;
-   line-height: 1em;
+   font-size: 40px;
+   line-height: 40px;
    padding-left: 7em;
    padding-bottom: .5em;
  }
   #map {
-   width: 7.2em;
+   width: 250px;
   }
   .contact li {
-    line-height: 1.4em;
+    line-height: 25px;
   }
 }
 @media screen and (min-width: 720px) {
@@ -257,22 +258,22 @@ padding: .5em;
     margin-left: 20%;
   }
   h2 {
-    font-size: 1.25em;
+    font-size: 40px;
   }
   .navigation ul {
     margin-bottom: 4em;
   }
   .navigation li {
-    margin-left: 2.25em;
+    margin-left: 45px;
   }
   h4 {
     padding-left: 8.8em;
   }
   #map {
-    width: 7.6em;
+    width: 275px;
   }
  .contact {
-   line-height: 1em;
+   line-height: 25px;
   }
  .contact li {
    padding-left: 17em;
@@ -281,10 +282,10 @@ padding: .5em;
 @media screen and (min-width: 920px) {
   .navigation ul {
     margin-bottom: 3em;
-    padding-top: .5em;
+    padding-top: 10px;
   }
   .navigation li {
-    margin-left: .5em;
+    margin-left: 10px;
   }
   h4 {
     padding-left: 9.3em;
@@ -295,8 +296,8 @@ padding: .5em;
 }
 @media screen and (min-width: 1100px) {
   h1 {
-   font-size: 1.87em;
-   line-height: 1.2em;
+   font-size: 60px;
+   line-height: 60px;
  }
  #sandwich, #burger, #gyro, #salad, #tacos {
    width: 50%;
@@ -307,41 +308,41 @@ padding: .5em;
    padding-top: 1em;
  }
  .navigation li {
-   margin-left:1.92em;
+   margin-left:48px;
  }
  #Menu li {
-   font-size: .781em;
+   font-size: 25px;
  }
  h5 {
-   font-size: 1.25em;
+   font-size: 40px;
  }
  .aboutus p {
-   font-size: .563em;
+   font-size: 18px;
  }
  h4 {
-   font-size: 2.25em;
-   line-height: 1.33em;
+   font-size: 45px;
+   line-height: 60px;
    padding-left: 10em;
  }
  #map {
-   width: 8.3em;
+   width: 300px;
  }
  .contact li {
-   font-size: 1em;
-   line-height: 1.5em;
+   font-size: 20px;
+   line-height: 30px;
    padding-left: 22em;
  }
 }
 @media screen and (min-width: 1270px) {
  #Menu li {
-   font-size: .625em;
-   line-height: 1.250em;
+   font-size: 20px;
+   line-height: 25px;
  }
  .navigation li {
-   margin-left: 5em;
+   margin-left: 100px;
  }
  #map {
    margin-left: 4em;
-   width: 9.02em;
+   width: 325px;
  }
 }
